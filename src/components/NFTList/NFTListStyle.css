@@ -1,0 +1,12 @@
+.NFTListItem {
+  border: 1px solid rgb(35, 43, 57);
+}
+.NFTListItem::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(rgba(19, 24, 32, 0) 0%, rgb(35, 43, 57) 100%);
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 32px;
+}
